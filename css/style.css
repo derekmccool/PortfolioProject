@@ -1,0 +1,106 @@
+.jumbotron{
+    height: 175px;
+    background-color: rgb(66, 8, 80);
+    color: white;
+    border-radius: 0;
+    box-shadow: 0.25em  0.25em 0.75em rgba(0,0,0,.25),
+    0.125em 0.125em 0.25em rgba(0,0,0,.15);
+}
+
+.jumbotron p{
+    font-size: 1.25rem;
+    color: rgb(229, 154, 231);
+    font-style: italic;
+    text-shadow: white;
+}
+
+a {
+    font-size: 1.25rem;
+    font-weight: bold;
+    text-decoration: none;
+    color:  rgb(43, 221, 221);
+}
+
+a:hover{
+    text-decoration: none;
+    color: rgb(229, 154, 231);
+}
+
+#derek-img, #vending-screenshot{
+    max-width: 500px;
+    z-index: 1;
+    z-index: 1000;
+    box-shadow: 0.25em  0.25em 0.75em rgba(0,0,0,.25),
+    0.125em 0.125em 0.25em rgba(0,0,0,.15);
+}
+
+.about{
+    background-color: rgba(228, 154, 231, 0.712);
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    z-index: 2;
+    text-align: right;
+    color: white;
+    padding: 1rem;
+    box-shadow: 0.25em  0.25em 0.75em rgba(0,0,0,.25),
+    0.125em 0.125em 0.25em rgba(0,0,0,.15);
+
+}
+
+.about-container, .project-container{
+    width: 100%;
+    margin-top: 1rem;
+    position: relative;
+}
+
+.about-content, .project-content{
+    text-align: center;
+    position: relative;
+    margin-top: 5rem;
+    font-size: 1.2rem;
+    padding: 2rem;
+    color: white;    
+    font-weight: bold;
+    background-color: rgba(28, 24, 29, 0.822);
+    border: .2rem;
+    border-style: solid;
+    border-color: rgb(66, 8, 80);
+    box-shadow: 0.25em  0.25em 0.75em rgba(0,0,0,.25),
+    0.125em 0.125em 0.25em rgba(0,0,0,.15);
+}
+
+.project-btn{
+    margin: 1rem;
+    background-color:  rgb(43, 221, 221);
+    color:rgba(0, 0, 0, 0.63);
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+
+}
+
+.project-btn:hover{
+    color:white;
+    background-color: rgba(228, 154, 231, 0.712);
+}
+
+
+@media (max-width: 600px){
+
+    .about-container{
+        text-align: center;
+    }
+    .about{
+        left: 0%;
+        top:100%;
+        width: 100%;
+    }
+    #derek-img, #vending-screenshot{
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        max-width: 400px;
+    }
+}
